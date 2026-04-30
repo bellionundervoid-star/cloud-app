@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Cloud App</title>
+
+</head>
+
+<body>
+
+    <h2>Enter something:</h2>
+
+    <form method="POST">
+
+        <input type="text" name="input_data" required>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    {% if result %}
+
+    <h3>{{ result }}</h3>
+
+    {% endif %}
+
+</body>
+
+</html>
